@@ -1,0 +1,4 @@
+langgraph>=0.2
+langchain>=0.2
+streamlit>=1.30
+pydantic>=2.5

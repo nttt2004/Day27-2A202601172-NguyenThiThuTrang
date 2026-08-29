@@ -1,0 +1,162 @@
+[
+  {
+    "timestamp": "2026-08-29T16:30:44",
+    "agent_id": "churn-risk-agent",
+    "action": "increase_credit_limit",
+    "confidence": 0.99,
+    "reviewer_id": "operator_01",
+    "decision": "approve",
+    "customer_id": "CUST004",
+    "reasoning": "Khach hang CUST004 co churn probability 0.88 (>= 0.7) va TOI 1,250,000,000 VND (khach gia tri cao). Tang han muc tin dung them 100,000,000 VND duoc ky vong giu chan khach hang nay.",
+    "action_params": {
+      "amount": 100000000,
+      "currency": "VND"
+    },
+    "executed": true,
+    "note": "Human approve nguyen ban de xuat cua agent."
+  },
+  {
+    "timestamp": "2026-08-29T16:30:44",
+    "agent_id": "churn-risk-agent",
+    "action": "increase_credit_limit",
+    "confidence": 0.96,
+    "reviewer_id": "operator_01",
+    "decision": "reject",
+    "customer_id": "CUST001",
+    "reasoning": "Khach hang CUST001 co churn probability 0.82 (>= 0.7) va TOI 720,000,000 VND (khach gia tri cao). Tang han muc tin dung them 60,000,000 VND duoc ky vong giu chan khach hang nay.",
+    "action_params": {
+      "amount": 60000000,
+      "currency": "VND"
+    },
+    "executed": false,
+    "note": "Human tu choi, khong thay doi gi tren he thong."
+  },
+  {
+    "timestamp": "2026-08-29T16:30:44",
+    "agent_id": "churn-risk-agent",
+    "action": "increase_credit_limit",
+    "confidence": 0.96,
+    "reviewer_id": "operator_01",
+    "decision": "edit",
+    "customer_id": "CUST001",
+    "reasoning": "Khach hang CUST001 co churn probability 0.82 (>= 0.7) va TOI 720,000,000 VND (khach gia tri cao). Tang han muc tin dung them 60,000,000 VND duoc ky vong giu chan khach hang nay.",
+    "action_params": {
+      "amount": 20000000,
+      "currency": "VND"
+    },
+    "executed": true,
+    "note": "Human chinh sua proposed action truoc khi cho chay."
+  },
+  {
+    "timestamp": "2026-08-29T16:30:44",
+    "agent_id": "churn-risk-agent",
+    "action": "send_email",
+    "confidence": 0.92,
+    "reviewer_id": "system",
+    "decision": "auto_execute",
+    "customer_id": "CUST002",
+    "reasoning": "Khach hang CUST002 co churn probability 0.55 va TOI 180,000,000 VND, chua toi nguong can hanh dong tai chinh rui ro cao. Gui email chuong trinh giu chan la buoc phu hop va it rui ro.",
+    "action_params": {
+      "template": "retention_offer_v2",
+      "channel": "email"
+    },
+    "executed": true,
+    "note": "Low-risk action, confidence dat nguong auto-execute."
+  },
+  {
+    "timestamp": "2026-08-29T16:30:44",
+    "agent_id": "churn-risk-agent",
+    "action": "send_email",
+    "confidence": 0.82,
+    "reviewer_id": "operator_01",
+    "decision": "approve",
+    "customer_id": "CUST003",
+    "reasoning": "Khach hang CUST003 co churn probability 0.45 va TOI 240,000,000 VND, chua toi nguong can hanh dong tai chinh rui ro cao. Gui email chuong trinh giu chan la buoc phu hop va it rui ro. Luu y: du lieu khach hang chi day du 63% nen confidence bi ha xuong 0.82.",
+    "action_params": {
+      "template": "retention_offer_v2",
+      "channel": "email"
+    },
+    "executed": true,
+    "note": "Human approve nguyen ban de xuat cua agent."
+  },
+  {
+    "timestamp": "2026-08-29T16:32:06",
+    "agent_id": "churn-risk-agent",
+    "action": "increase_credit_limit",
+    "confidence": 0.99,
+    "reviewer_id": "operator_01",
+    "decision": "approve",
+    "customer_id": "CUST004",
+    "reasoning": "Khach hang CUST004 co churn probability 0.88 (>= 0.7) va TOI 1,250,000,000 VND (khach gia tri cao). Tang han muc tin dung them 100,000,000 VND duoc ky vong giu chan khach hang nay.",
+    "action_params": {
+      "amount": 100000000,
+      "currency": "VND"
+    },
+    "executed": true,
+    "note": "Human approve nguyen ban de xuat cua agent."
+  },
+  {
+    "timestamp": "2026-08-29T16:32:06",
+    "agent_id": "churn-risk-agent",
+    "action": "increase_credit_limit",
+    "confidence": 0.96,
+    "reviewer_id": "operator_01",
+    "decision": "reject",
+    "customer_id": "CUST001",
+    "reasoning": "Khach hang CUST001 co churn probability 0.82 (>= 0.7) va TOI 720,000,000 VND (khach gia tri cao). Tang han muc tin dung them 60,000,000 VND duoc ky vong giu chan khach hang nay.",
+    "action_params": {
+      "amount": 60000000,
+      "currency": "VND"
+    },
+    "executed": false,
+    "note": "Human tu choi, khong thay doi gi tren he thong."
+  },
+  {
+    "timestamp": "2026-08-29T16:32:06",
+    "agent_id": "churn-risk-agent",
+    "action": "increase_credit_limit",
+    "confidence": 0.96,
+    "reviewer_id": "operator_01",
+    "decision": "edit",
+    "customer_id": "CUST001",
+    "reasoning": "Khach hang CUST001 co churn probability 0.82 (>= 0.7) va TOI 720,000,000 VND (khach gia tri cao). Tang han muc tin dung them 60,000,000 VND duoc ky vong giu chan khach hang nay.",
+    "action_params": {
+      "amount": 20000000,
+      "currency": "VND"
+    },
+    "executed": true,
+    "note": "Human chinh sua proposed action truoc khi cho chay."
+  },
+  {
+    "timestamp": "2026-08-29T16:32:06",
+    "agent_id": "churn-risk-agent",
+    "action": "send_email",
+    "confidence": 0.92,
+    "reviewer_id": "system",
+    "decision": "auto_execute",
+    "customer_id": "CUST002",
+    "reasoning": "Khach hang CUST002 co churn probability 0.55 va TOI 180,000,000 VND, chua toi nguong can hanh dong tai chinh rui ro cao. Gui email chuong trinh giu chan la buoc phu hop va it rui ro.",
+    "action_params": {
+      "template": "retention_offer_v2",
+      "channel": "email"
+    },
+    "executed": true,
+    "note": "Low-risk action, confidence dat nguong auto-execute."
+  },
+  {
+    "timestamp": "2026-08-29T16:32:06",
+    "agent_id": "churn-risk-agent",
+    "action": "send_email",
+    "confidence": 0.82,
+    "reviewer_id": "operator_01",
+    "decision": "approve",
+    "customer_id": "CUST003",
+    "reasoning": "Khach hang CUST003 co churn probability 0.45 va TOI 240,000,000 VND, chua toi nguong can hanh dong tai chinh rui ro cao. Gui email chuong trinh giu chan la buoc phu hop va it rui ro. Luu y: du lieu khach hang chi day du 63% nen confidence bi ha xuong 0.82.",
+    "action_params": {
+      "template": "retention_offer_v2",
+      "channel": "email"
+    },
+    "executed": true,
+    "note": "Human approve nguyen ban de xuat cua agent."
+  }
+]
